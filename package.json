@@ -11,10 +11,10 @@
     "postdeploy": "wrangler d1 execute DB --file=schema.sql --remote"
   },
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.8.19",
+    "@cloudflare/vitest-pool-workers": "^0.16.11",
     "@cloudflare/workers-types": "^4.20250430.0",
     "typescript": "^5.5.2",
-    "vitest": "~3.0.7",
+    "vitest": "~4.1.8",
     "wrangler": "^4.14.0"
   }
 }
